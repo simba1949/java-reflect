@@ -39,7 +39,7 @@ public class Human extends Animalia implements IRead, IWrite {
 	
 	@Override
 	public String toString() {
-		return "Person{" +
+		return "Human{" +
 			       "name='" + name + '\'' +
 			       ", age=" + age +
 			       "} " + super.toString();
