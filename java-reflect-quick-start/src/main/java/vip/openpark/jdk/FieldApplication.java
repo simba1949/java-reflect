@@ -1,4 +1,4 @@
-package vip.openpark.jdk.field;
+package vip.openpark.jdk;
 
 import vip.openpark.jdk.common.Human;
 
@@ -9,7 +9,7 @@ import java.lang.reflect.Modifier;
  * @author anthony
  * @version 2024/2/23 15:34
  */
-public class N1FieldApplication {
+public class FieldApplication {
 	public static void main(String[] args) throws IllegalAccessException {
 		Human human = new Human();
 		human.setName("anthony");
