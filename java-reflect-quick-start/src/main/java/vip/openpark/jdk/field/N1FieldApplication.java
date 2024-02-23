@@ -33,7 +33,9 @@ public class N1FieldApplication {
 			// 获取值
 			System.out.println("获取值：" + field.get(human));
 			// 设置值
-			field.set(human, "123456");
+			if (field.getType().equals(String.class)) {
+				field.set(human, "open park");
+			}
 		}
 	}
 }
