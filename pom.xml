@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>java-reflect-get-start</module>
+        <module>java-reflect-quick-start</module>
     </modules>
 
     <properties>
