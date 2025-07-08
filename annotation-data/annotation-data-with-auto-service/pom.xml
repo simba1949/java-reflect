@@ -26,11 +26,11 @@
             <version>1.1.1</version>
         </dependency>
         <!-- 代码生成工具 -->
-        <!-- https://mvnrepository.com/artifact/com.squareup/javapoet -->
+        <!-- https://mvnrepository.com/artifact/com.palantir.javapoet/javapoet -->
         <dependency>
-            <groupId>com.squareup</groupId>
+            <groupId>com.palantir.javapoet</groupId>
             <artifactId>javapoet</artifactId>
-            <version>1.13.0</version>
+            <version>0.7.0</version>
         </dependency>
     </dependencies>
 
@@ -52,11 +52,11 @@
                             <artifactId>auto-service</artifactId>
                             <version>1.1.1</version>
                         </path>
-                        <!-- https://mvnrepository.com/artifact/com.squareup/javapoet -->
+                        <!-- https://mvnrepository.com/artifact/com.palantir.javapoet/javapoet -->
                         <path>
-                            <groupId>com.squareup</groupId>
+                            <groupId>com.palantir.javapoet</groupId>
                             <artifactId>javapoet</artifactId>
-                            <version>1.13.0</version>
+                            <version>0.7.0</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>

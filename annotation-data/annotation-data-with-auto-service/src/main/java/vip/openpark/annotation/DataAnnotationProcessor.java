@@ -1,7 +1,7 @@
 package vip.openpark.annotation;
 
 import com.google.auto.service.AutoService;
-import com.squareup.javapoet.*;
+import com.palantir.javapoet.*;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
@@ -106,7 +106,7 @@ public class DataAnnotationProcessor extends AbstractProcessor {
 			.indent("    ")
 			.build();
 
-		messager.printMessage(Diagnostic.Kind.NOTE, "生成: " + javaFile.packageName + "." + className);
+		messager.printMessage(Diagnostic.Kind.NOTE, "生成: " + javaFile.packageName() + "." + className);
 		javaFile.writeTo(processingEnv.getFiler());
 	}
 
